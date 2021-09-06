@@ -28,7 +28,6 @@ app.post("/api/gwp/avg/",(req,res)=>{
             return curr+parseFloat(val);
         },0.0);
         avg = sum/8;
-        console.log(avg);
         obj[x] = avg;
     })
     res.send(obj);
