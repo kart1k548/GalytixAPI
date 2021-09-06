@@ -10,5 +10,10 @@ Step 4: Send post request to the route http://localhost:9091/api/gwp/avg/ . This
 
 Step 5: Check the desired response from the API is provided.
 
+API uses following dependencies:
+Express: For handling post requests from clients.
+csvtojson: For converting csv file data to json data.
+Bodyparser: For parsing data from client’s post request’s body to API.
+
 Output: 
 ![](Output.png)
